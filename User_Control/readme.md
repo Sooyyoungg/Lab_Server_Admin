@@ -30,13 +30,18 @@ Load the codes that I always use for server control
 * server_deluser.sh: deleting user account and folder in all node computers and gateway computer of lab server
 * server_addkey.sh: adding the public key of each user in our all computers of lab server
 
-server_addkey.sh & server_deluser.sh is made by @Sooyyoungg      
-server_adduser_pw.sh & server_adduser_no_pw.sh & server_adduser_etc.sh is made by @nemodleo
+server_addkey.sh is made by @Sooyyoungg      
+server_adduser_pw.sh & server_adduser_no_pw.sh & server_adduser_etc.sh & server_deluser.sh are made by @nemodleo
 
 ## How to run
 ~~~Bash
 conmaster@connectome:~/server_management$ ./server_adduser.sh {userID} {UID} {First_Lastname}
+conmaster@connectome:~/server_management$ ./server_addkey.sh {userID} {ssh public_key}
+conmaster@connectome:~/server_management$ ./server_deluser.sh {userID}
         
 # example
 conmaster@connectome:~/server_management$ ./server_adduser.sh conmaster 10000 Sooyoung_Kim
+conmaster@connectome:~/server_management$ ./server_addkey.sh conmaster "ssh-rsa askdfna;soidfna;osidfb;aosidbf;aosdnfoaisdnfoasdnfa"
+conmaster@connectome:~/server_management$ ./server_deluser.sh conmaster
+
 ~~~
