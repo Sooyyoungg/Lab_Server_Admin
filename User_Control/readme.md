@@ -4,9 +4,9 @@ Only for connectome group, our lab, I set the system with @nemodleo and @junbeom
 ## Rules for connectome group users & admin
 1. UID : 10000~19999 (ex. 11111)
 2. GID : 10000 (connectome group)
-3. Home directory : /home/connectome/{User ID}
-4. User ID info : must be the name of user
-5. User ID : whatever user wants
+3. User ID info : must be the name of user
+4. User ID : whatever user wants
+5. Home directory : /home/connectome/{User ID}
 6. Mounting/sharing directory : /data (in storage server) == /scratch (in master, node1, node2 server) -> for storing data
 7. Administor user : conmaster(Sooyyoungg), kimj(김종헌 교수님)      
 
