@@ -12,6 +12,7 @@ Only for connectome group, our lab, I set the system with @nemodleo and @junbeom
 
 **_!!! Important !!! Admin(Sooyyoungg) must add all of the user information to our lab documents._**       
 
+## Direcotry Tree
 For all servers(gateway, master, node1, node2, storage) should satisfy the following dir tree.
 ~~~Bash
 conmaster@gateway:/etc/connectome$ tree -N
