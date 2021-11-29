@@ -32,3 +32,10 @@ Load the codes that I always use for server control
 
 server_addkey.sh & server_deluser.sh is made by @Sooyyoungg      
 server_adduser_pw.sh & server_adduser_no_pw.sh & server_adduser_etc.sh is made by @nemodleo
+
+## How to run
+~~~Bash
+conmaster@connectome:~/server_management$ ./server_adduser.sh {userID} {UID} {First_Lastname}
+# example
+conmaster@connectome:~/server_management$ ./server_adduser.sh conmaster 10000 Sooyoung_Kim
+~~~
